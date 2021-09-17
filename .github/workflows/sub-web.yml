@@ -23,6 +23,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/CareyWang/sub-web.git"
-          source_branch: "main"
+          source_branch: "master"
           destination_branch: "sub-web"
           github_token: ${{ secrets.PAT }}
