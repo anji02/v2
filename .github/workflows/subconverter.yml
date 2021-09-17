@@ -23,6 +23,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/tindy2013/subconverter.git"
-          source_branch: "main"
+          source_branch: "master"
           destination_branch: "subconverter"
           github_token: ${{ secrets.PAT }}
